@@ -1,5 +1,15 @@
 # Yarrie 26 Wedding Website
 
-Wedding website for Aggya Yaw Asomani and Harriet Yahaya Saaka.
+Independent React + Vite wedding website for Aggya Yaw Asomani and Harriet Yahaya Saaka.
 
-This project will be deployed using GitHub Pages.
+## Development
+- `npm ci`
+- `npm run dev`
+- `npm run build`
+
+## Deployment
+GitHub Actions builds and publishes the `dist` folder to GitHub Pages on every push to `main`.
+
+Live site: https://nanakwame7225.github.io/yarrie-26-wedding-website/
+
+This project is independent of Base44. The event directions open Google Maps. RSVP contacts open the visitor's phone dialler; no paid backend is required.

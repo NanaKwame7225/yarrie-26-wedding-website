@@ -1,0 +1,1 @@
+module.exports={content:["./index.html","./src/**/*.{js,jsx}"],theme:{extend:{fontFamily:{heading:["var(--font-heading)"],body:["var(--font-body)"],display:["var(--font-display)"]}}},plugins:[require("tailwindcss-animate")]};
