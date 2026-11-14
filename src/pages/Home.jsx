@@ -7,4 +7,4 @@ import InvitationHero from "../components/wedding/InvitationHero";
 import PhotoGallery from "../components/wedding/PhotoGallery";
 import Rsvp from "../components/wedding/Rsvp";
 import SiteFooter from "../components/wedding/SiteFooter";
-export default function Home() { return <main className="min-h-screen bg-[#F7F9F6]"><InvitationHero/><Countdown/><EventWayfinder/><FindingUs/><InvitationArtwork/><PhotoGallery/><Rsvp/><SiteFooter/><CompassButton/></main>; }
+export default function Home() { return <main className="wedding-site min-h-screen bg-[#F7F9F6]"><InvitationHero/><Countdown/><EventWayfinder/><FindingUs/><InvitationArtwork/><PhotoGallery/><Rsvp/><SiteFooter/><CompassButton/></main>; }
