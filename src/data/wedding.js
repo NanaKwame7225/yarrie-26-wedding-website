@@ -19,12 +19,13 @@ export const engagement = {
   id: "engagement", kicker: "The Engagement", rite: "Where it all begins",
   day: "26", monthYear: "NOV 2026", time: "10:00 AM",
   isoDate: "2026-11-26T10:00:00Z", dateLong: "Thursday, 26 November 2026",
-  venue: "Destiny Transformation Centre", area: "Eduardo Mohdlana Road",
-  city: "Accra, Ghana", postal: "",
-  mapsQuery: "Destiny Transformation Centre, Eduardo Mohdlana Rd, Accra, Ghana",
+  venue: "27 Volta Ave Ext", area: "Exact engagement location — use the pinned Google Maps destination",
+  city: "Accra, Greater Accra Region, Ghana", postal: "",
+  mapsQuery: "5.5597803,-0.2404299",
+  mapsUrl: "https://maps.app.goo.gl/k1bx7JzZPeJpJD9bA",
 };
-export const directionsUrl = (event) => event.mapsQuery
-  ? `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(event.mapsQuery)}` : null;
+export const directionsUrl = (event) => event.mapsUrl || (event.mapsQuery
+  ? `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(event.mapsQuery)}` : null);
 export const mapEmbedUrl = (event) => event.mapsQuery
   ? `https://maps.google.com/maps?q=${encodeURIComponent(event.mapsQuery)}&z=15&output=embed` : null;
 export const rsvpContacts = [
