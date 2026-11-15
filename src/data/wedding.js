@@ -19,9 +19,9 @@ export const engagement = {
   id: "engagement", kicker: "The Engagement", rite: "Where it all begins",
   day: "26", monthYear: "NOV 2026", time: "10:00 AM",
   isoDate: "2026-11-26T10:00:00Z", dateLong: "Thursday, 26 November 2026",
-  venue: "Engagement Venue", area: "GhanaPostGPS Digital Address: G73623854",
+  venue: "Engagement Venue", area: "Jagbele Road, Abossey Okai",
   city: "Accra, Greater Accra Region, Ghana", postal: "G73623854",
-  mapsQuery: "G73623854, Ghana",
+  mapsQuery: "5.559677149455824,-0.240815763639917",
   mapsUrl: "https://www.ghanapostgps.com/map/#G73623854",
 };
 export const directionsUrl = (event) => event.mapsUrl || (event.mapsQuery
