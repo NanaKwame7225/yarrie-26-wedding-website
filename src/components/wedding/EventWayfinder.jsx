@@ -10,16 +10,16 @@ export default function EventWayfinder() {
             Two celebrations
           </p>
           <h2 className="mt-5 font-heading text-3xl leading-tight text-[#F7F9F6] md:text-5xl">
-            Choose where you are going
+            Choose the event you are attending
           </h2>
           <p className="mx-auto mt-5 max-w-md font-body text-sm leading-relaxed text-[#F7F9F6]/65">
-            Tap a celebration and we will open turn-by-turn directions straight to the venue.
+            Select the celebration you will be joining to view its details and get directions to the venue.
           </p>
         </div>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 md:gap-8">
-          <EventCard event={wedding} />
-          <EventCard event={engagement} tone="dark" />
+          <EventCard event={engagement} />
+          <EventCard event={wedding} tone="dark" />
         </div>
       </div>
     </section>
