@@ -1,6 +1,6 @@
 # Yarrie 26 Wedding Website
 
-Independent React + Vite wedding website for Aggya Yaw Asomani and Harriet Yahaya Saaka.
+Independent React + Vite wedding website for Agya Yaw Asomani and Harriet Yahaya Saaka.
 
 ## Development
 - `npm ci`

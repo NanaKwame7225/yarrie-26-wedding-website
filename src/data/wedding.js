@@ -1,6 +1,6 @@
 // Event details for the independent GitHub Pages site.
 export const couple = {
-  groom: { first: "Aggya Yaw", family: "ASOMANI" },
+  groom: { first: "Agya Yaw", family: "ASOMANI" },
   bride: { first: "Harriet Yahaya", family: "SAAKA" },
   families: "Asomani & Saaka",
   hashtag: "#YARRIE26",

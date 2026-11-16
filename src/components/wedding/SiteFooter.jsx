@@ -8,7 +8,7 @@ export default function SiteFooter() {
           {couple.hashtag}
         </p>
         <p className="mt-7 font-display text-3xl leading-snug text-[#D4AF37] md:text-5xl">
-          Aggya Yaw &amp; Harriet Yahaya
+          Agya Yaw &amp; Harriet Yahaya
         </p>
         <div className="mx-auto mt-8 h-px w-20 bg-[#D4AF37]/50" />
         <p className="mt-8 font-body text-[10px] uppercase tracking-[0.3em] text-[#F7F9F6]/55">
