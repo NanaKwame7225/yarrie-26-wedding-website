@@ -1,16 +1,11 @@
-const CACHE_NAME = "yarrie26-offline-v1";
+const CACHE_NAME = "yarrie26-offline-v3";
 const CORE_ASSETS = [
   "./",
   "./index.html",
-  "./images/yarrie-couple-retouched.jpg",
   "./images/engagement-offline-map.jpg",
   "./images/wedding-offline-map.jpg",
-  "./images/rings.png",
-  "./images/bouquet.png",
-  "./images/couple-garden.png",
-  "./images/table-details.png",
-  "./images/first-dance.png",
-  "./images/invitation.jpg"
+  "./images/yarrie26-couple-edited.png",
+  "./images/yarrie26-couple-original.jpg"
 ];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(CORE_ASSETS)).then(() => self.skipWaiting()));

@@ -1,5 +1,4 @@
-// Event details and local media assets for the independent GitHub Pages site.
-const asset = (name) => `${import.meta.env.BASE_URL}images/${name}`;
+// Event details for the independent GitHub Pages site.
 export const couple = {
   groom: { first: "Aggya Yaw", family: "ASOMANI" },
   bride: { first: "Harriet Yahaya", family: "SAAKA" },
@@ -32,11 +31,3 @@ export const rsvpContacts = [
   { name: "Andrew", phone: "0244693519" },
   { name: "Stanley", phone: "0554366025" },
 ];
-export const gallery = [
-  { slot: "cocktail", title: "Golden hour, our hands", credit: "The rings · Accra 2026", src: asset("rings.png"), alt: "Two hands clasped with gold rings, emerald green fabric around the wrists" },
-  { slot: "headlight", title: "White roses, gold ribbon", credit: "The blooms", src: asset("bouquet.png"), alt: "Bridal bouquet of white roses and mustard blooms tied with emerald silk" },
-  { slot: "portrait", title: "Hand in hand, Bubiashie", credit: "#YARRIE26", src: asset("couple-garden.png"), alt: "Couple walking hand in hand along a palm-lined garden path" },
-  { slot: "aloe", title: "The table we set", credit: "Reception details", src: asset("table-details.png"), alt: "Emerald tablecloth with mustard gold cutlery, glassware and white flowers" },
-  { slot: "wheel", title: "Dancing under the lights", credit: "Accra 2026", src: asset("first-dance.png"), alt: "Couple dancing at an outdoor garden reception beneath warm string lights" },
-];
-export const invitationArtwork = asset("invitation.jpg");
